@@ -7,13 +7,14 @@
     --vermelho-luffy: #C1121F;
     --bege-pergaminho: #FFF8DC;
     --cinza-claro: #F1F1F1;
+    --azul-marinho: #002B5B;
 }
 
 body {
     font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
-    background-color: var(--cinza-claro);
-    color: #333;
+    background-color: #000000; /* fundo preto */
+    color: #f5f5f5; /* texto claro para contraste */
     margin: 0;
     padding: 0;
 }
@@ -39,7 +40,7 @@ header {
 }
 
 .inicio-fundo {
-    background-image: url('https://static.wikia.nocookie.net/onepiece/images/4/41/Grand_Line_Infobox.png/revision/latest?cb=20250503225138&path-prefix=pt'); /* imagem temática */
+    background-image: url('https://static.wikia.nocookie.net/onepiece/images/4/41/Grand_Line_Infobox.png/revision/latest?cb=20250503225138&path-prefix=pt');
     background-size: cover;
     background-position: center;
     border-radius: 40px;
@@ -74,7 +75,7 @@ header {
 }
 
 .botao-inicio {
-    background-color: var(--vermelho-luffy);
+    background-color: var(--red); /* botão vermelho */
     color: white;
     border-radius: 30px;
     border: none;
@@ -85,7 +86,7 @@ header {
 }
 
 .botao-inicio:hover {
-    background-color: var(--azul-marinho);
+    background-color: #990000; /* vermelho escuro no hover */
 }
 
 #sobre {
@@ -148,7 +149,7 @@ h2 {
 }
 
 .formulario button {
-    background-color: var(--vermelho-luffy);
+    background-color: var(--red); /* botão vermelho */
     color: white;
     border: none;
     font-weight: bold;
@@ -157,7 +158,7 @@ h2 {
 }
 
 .formulario button:hover {
-    background-color: var(--red);
+    background-color: #990000; /* vermelho escuro no hover */
 }
 
 .form-control {
