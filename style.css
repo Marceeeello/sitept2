@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 :root {
-    --vermelho: #FF0000;
+    --red: #FF0000;
     --dourado-pirata: #FFD700;
     --vermelho-luffy: #C1121F;
     --bege-pergaminho: #FFF8DC;
@@ -19,8 +19,8 @@ body {
 }
 
 header {
-    background-color: var(--vermelho);
-    color: white;
+    background-color: var(--red);
+    color: black;
     padding: 2rem 0;
 }
 
@@ -157,7 +157,7 @@ h2 {
 }
 
 .formulario button:hover {
-    background-color: var(--vermelho);
+    background-color: var(--red);
 }
 
 .form-control {
@@ -166,7 +166,7 @@ h2 {
 }
 
 footer {
-    background-color: var(--vermelho);
+    background-color: var(--red);
     color: white;
     padding: 2rem 0;
 }
