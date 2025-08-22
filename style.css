@@ -19,7 +19,7 @@ body {
 }
 
 header {
-    background-color: var(--azul-marinho);
+    background-color: var(--vermelho);
     color: white;
     padding: 2rem 0;
 }
@@ -39,7 +39,7 @@ header {
 }
 
 .inicio-fundo {
-    background-image: url('img/grand-line.jpg'); /* imagem temática */
+    background-image: url('https://static.wikia.nocookie.net/onepiece/images/4/41/Grand_Line_Infobox.png/revision/latest?cb=20250503225138&path-prefix=pt'); /* imagem temática */
     background-size: cover;
     background-position: center;
     border-radius: 40px;
@@ -157,7 +157,7 @@ h2 {
 }
 
 .formulario button:hover {
-    background-color: var(--azul-marinho);
+    background-color: var(--vermelho);
 }
 
 .form-control {
@@ -166,7 +166,7 @@ h2 {
 }
 
 footer {
-    background-color: var(--azul-marinho);
+    background-color: var(--vermelho);
     color: white;
     padding: 2rem 0;
 }
